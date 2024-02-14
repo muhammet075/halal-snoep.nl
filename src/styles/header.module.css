@@ -1,0 +1,40 @@
+.header{
+    background-color: #0000b2;
+    border-bottom: 5px solid red;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+.header > div nav{
+    padding: 0 !important;
+}
+
+.header > div nav a img{
+    width: 300px !important;
+}
+
+.header > div nav .dropdown-toggle{
+    cursor: pointer !important;
+}
+
+.header > div nav #navbarNavDropdown{
+    justify-content: end !important;
+    background-color: red !important;
+}
+
+
+@media only screen and (max-width: 410px) {
+    .header > div nav a img{
+        width: 250px !important;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .header > div nav a img{
+        width: 215px !important;
+    }
+}

@@ -1,0 +1,300 @@
+.homepagecontent > div:nth-of-type(1){
+    background-color: #e9ecf2;    
+}
+
+.homepagecontent > div:nth-of-type(1) > div{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homepagecontent > div:nth-of-type(1) > div p{
+    font-size: 14px;
+}
+
+.homepagecontent > div:nth-of-type(1) > div > section img{
+    max-width: 400px;
+    height: auto;
+}
+
+@media only screen and (max-width: 1155px) {
+    .homepagecontent > div:nth-of-type(1){
+        padding: 0 15px;;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .homepagecontent > div:nth-of-type(1) > div{
+        flex-direction: column;
+        padding: 25px 0;
+    }
+}
+
+
+
+.homepagecontent > div:nth-of-type(2) > div{
+    max-width: 1140px;
+    margin: 50px auto;
+    text-align: center;
+} 
+
+.homepagecontent > div:nth-of-type(2) > div p{
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.homepagecontent > div:nth-of-type(2) > div > ul{
+    list-style: none;
+    margin-top: 50px;
+} 
+
+.homepagecontent > div:nth-of-type(2) > div > ul > li{
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    border: 3px solid #efefef;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.homepagecontent > div:nth-of-type(2) > div > ul > li > span img{
+    max-width: 175px;
+    height: auto;
+}
+
+.homepagecontent > div:nth-of-type(2) > div > ul > li > span h3{
+    font-size: 16px;
+    margin: 15px 0 0 0;
+    font-weight: 600;
+    color: #313131;
+}
+
+.homepagecontent > div:nth-of-type(2) > div > ul > li > ul{
+    list-style: none;
+}
+
+.homepagecontent > div:nth-of-type(2) > div > ul > li > ul li{
+    width: 100%;
+    text-align: initial;
+    font-size: 16px;
+    font-weight: 600;
+    color: #313131;
+}
+
+.homepagecontent > div:nth-of-type(2) > div > ul > li > ul li img{
+    width: 25px;
+    height: auto;
+    margin: 0 5px 0 0;
+}
+
+.homepagecontent > div:nth-of-type(2) > div > ul > li > a{
+    background-color: red;
+    border: 1.5px solid #880000;
+    color: #ffff;
+    width: 215px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 1px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -2px 0px inset;
+}
+
+.homepagecontent > div:nth-of-type(2) > div > ul > li > a:nth-of-type(1):hover{
+    text-decoration: none;
+    color: #ffff;
+    background: #ff9696;
+    transform: scale(1.02);
+    transition: 0.2s ease;
+}
+
+@media only screen and (max-width: 1155px) {
+    .homepagecontent > div:nth-of-type(2) > div{
+        padding: 0 15px;;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .homepagecontent > div:nth-of-type(2) > div > ul > li{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .homepagecontent > div:nth-of-type(2) > div > ul > li > ul li{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+.homepagecontent > div:nth-of-type(3){
+    background-color: #e9ecf2;
+}
+
+.homepagecontent > div:nth-of-type(3) > div{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.homepagecontent > div:nth-of-type(3) > div > div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+    margin-top: 45px;
+}
+
+.homepagecontent > div:nth-of-type(3) > div > div a{
+    background-color: #ffff;
+    border-radius: 10px;
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.homepagecontent > div:nth-of-type(3) > div > div a:hover{
+    transform: scale(1.05);
+    background-color: #e7e7ff;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.homepagecontent > div:nth-of-type(3) > div > div a img{
+    width: 65px;
+    height: auto;
+}
+    
+@media only screen and (max-width: 1155px) {
+    .homepagecontent > div:nth-of-type(3) > div{
+        padding: 50px 15px;
+    }
+
+    .homepagecontent > div:nth-of-type(3) > div > div{
+        grid-template-columns: 47% 47%;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+.homepagecontent > div:nth-of-type(4) > div{
+    max-width: 1140px;
+    margin: 25px auto;
+    text-align: center;
+} 
+
+.homepagecontent > div:nth-of-type(4) > div > p{
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.homepagecontent > div:nth-of-type(4) > div > p:last-child{
+    margin-top: 35px;
+    margin-bottom: 5px;
+    display: none;
+}
+
+.homepagecontent > div:nth-of-type(4) > div > div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+.homepagecontent > div:nth-of-type(4) > div > div > a{
+    width: 250px;
+    height: auto;
+    padding-bottom: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.homepagecontent > div:nth-of-type(4) > div > div > a h3{
+    font-size: 17px;
+    margin: 15px 10px;
+    font-weight: 600;
+    color: #313131;
+}
+
+.homepagecontent > div:nth-of-type(4) > div > div > a img{
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+    border-left: 0;
+    border-right: 0;
+}
+
+.homepagecontent > div:nth-of-type(4) > div > div > a p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.homepagecontent > div:nth-of-type(4) > div > div > a p:last-child{
+    border: 1.5px solid #f20000;
+    width: 50%;
+    margin: auto;
+    color: #f20000;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 6px;
+    margin-top: 25px;
+}
+
+.homepagecontent > div:nth-of-type(4) > div > div > a:hover{
+    text-decoration: none;
+    transform: scale(1.03);
+    transition: 0.3s ease;
+}
+
+.homepagecontent > div:nth-of-type(4) > div > div > a:hover p{
+    color: #000;
+}
+
+.homepagecontent > div:nth-of-type(4) > div > div > a:hover p:last-child{
+    background-color: red;
+    color: #ffff;
+    transition: 0.3s ease;
+}
+
+@media only screen and (max-width: 1155px) {
+    .homepagecontent > div:nth-of-type(4) > div{
+        padding: 50px 15px;
+    }
+
+    .homepagecontent > div:nth-of-type(4) > div > div{
+        margin-top: 25px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        padding: 0 0 40px 0;
+    }
+
+    .homepagecontent > div:nth-of-type(4) > div > div a{
+        display: inline-block;
+    }
+
+    .homepagecontent > div:nth-of-type(4) > div > p:last-child{
+        display: block;
+    }
+}

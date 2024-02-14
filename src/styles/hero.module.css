@@ -1,0 +1,122 @@
+.hero{
+    width: 100%;
+    height: 500px;
+    background-image: url(/halal-snoepjes-verschillend.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-bottom: 5px solid red;
+}
+
+.hero > div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #0000008a;
+}
+
+.hero > div > div{
+    max-width: 800px;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: #ffff;
+    text-align: center;
+}
+
+
+.hero > div > div > section h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hero > div > div > section p{
+    margin: 0;
+}
+
+.hero > div > div > section:nth-of-type(2) {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.hero > div > div > section:nth-of-type(2) a{
+    width: 210px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 1px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -2px 0px inset;
+}
+
+.hero > div > div > section:nth-of-type(2) a:nth-of-type(1){
+    background: red;
+    border: 1.5px solid #880000;
+}
+
+.hero > div > div > section:nth-of-type(2) a:nth-of-type(1):hover{
+    text-decoration: none;
+    color: #ffff;
+    background: #ff9696;
+    transform: scale(1.02);
+    transition: 0.2s ease;
+}
+
+.hero > div > div > section:nth-of-type(2) a:nth-of-type(2){
+    background: #ff66dc;
+    border: 1.5px solid #ff00c5;
+}
+
+.hero > div > div > section:nth-of-type(2) a:nth-of-type(2):hover{
+    text-decoration: none;
+    color: #ffff;
+    background: #ffacec;
+    transform: scale(1.02);
+    transition: 0.2s ease;
+}
+
+.hero > div > div > section:nth-of-type(2) a:nth-of-type(3){
+    background: #009e24;
+    border: 1.5px solid #006116;
+}
+
+.hero > div > div > section:nth-of-type(2) a:nth-of-type(3):hover{
+    text-decoration: none;
+    color: #ffff;
+    background: #2bef58;
+    transform: scale(1.02);
+    transition: 0.2s ease;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .hero{
+        height: 650px;
+    }
+
+    .hero > div > div{
+        padding: 0 15px;
+    }
+
+    .hero > div > div > section h1{
+        font-size: 40px;
+    }    
+
+    .hero > div > div > section p {
+        max-width: 450px;
+        margin: auto;
+    }
+
+    .hero > div > div > section:nth-of-type(2){
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 60px;
+    }
+}
