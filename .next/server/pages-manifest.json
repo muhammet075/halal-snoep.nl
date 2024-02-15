@@ -1,6 +1,25 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/algemene-voorwaarden": "pages/algemene-voorwaarden.html",
+  "/blog/is-snoep-slecht-voor-je": "pages/blog/is-snoep-slecht-voor-je.html",
+  "/blog": "pages/blog.html",
   "/_document": "pages/_document.js",
-  "/halal-snoep-producten": "pages/halal-snoep-producten.js"
+  "/blog/snoep-uit-de-jaren-90-en-80": "pages/blog/snoep-uit-de-jaren-90-en-80.html",
+  "/_app": "pages/_app.js",
+  "/blog/snoep-uit-turkije": "pages/blog/snoep-uit-turkije.html",
+  "/blog/snoep-uit-amerika": "pages/blog/snoep-uit-amerika.html",
+  "/blog/wat-doet-snoep-met-je-lichaam": "pages/blog/wat-doet-snoep-met-je-lichaam.html",
+  "/contact": "pages/contact.html",
+  "/disclaimer": "pages/disclaimer.html",
+  "/halal-snoep-bestellen/halal-delight-webshop": "pages/halal-snoep-bestellen/halal-delight-webshop.html",
+  "/halal-snoep-bestellen/halal-snoepjes-in-belgie": "pages/halal-snoep-bestellen/halal-snoepjes-in-belgie.html",
+  "/halal-snoep-bestellen": "pages/halal-snoep-bestellen.html",
+  "/halal-snoep-bestellen/halal-snoepjes-in-nederland": "pages/halal-snoep-bestellen/halal-snoepjes-in-nederland.html",
+  "/halal-snoep-producten": "pages/halal-snoep-producten.html",
+  "/": "pages/index.html",
+  "/wat-is-halal-snoep/halal-snoep-merken": "pages/wat-is-halal-snoep/halal-snoep-merken.html",
+  "/wat-is-halal-snoep/hoe-werkt-halal-slachten": "pages/wat-is-halal-snoep/hoe-werkt-halal-slachten.html",
+  "/wat-is-halal-snoep": "pages/wat-is-halal-snoep.html",
+  "/wat-is-halal-snoep/waar-kan-ik-halal-snoep-kopen": "pages/wat-is-halal-snoep/waar-kan-ik-halal-snoep-kopen.html",
+  "/404": "pages/404.html"
 }
