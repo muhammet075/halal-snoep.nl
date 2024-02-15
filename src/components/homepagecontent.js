@@ -15,6 +15,12 @@ import snoepje from "@/assets/icons/snoepje.svg";
 import winkelwagen from "@/assets/icons/winkelwagen.svg";
 import blogs from "@/assets/icons/blogs.svg";
 
+import turksevlag from "@/assets/img/turksevlag.png";
+import amerikaansesnoep from "@/assets/img/amerikaansesnoep.png";
+import lichaam from "@/assets/img/lichaam.png";
+import oudesnoep from "@/assets/img/oudesnoep.png";
+import gezond from "@/assets/img/gezond.png";
+
 function Homepagecontent() {
 
     useEffect(() => {
@@ -67,11 +73,11 @@ function Homepagecontent() {
                 <h2>Pagina's / Categorieën</h2>
                 <div>
                     <Link href="/"><Image src={home} alt="Icoontje van een huis"/> <span>Home pagina</span></Link>
-                    <Link href=""><Image src={winkelwagen} alt="Icoontje van een winkelwagen"/> <span>Halal snoep bestellen</span></Link>
-                    <Link href=""><Image src={informatie} alt="Informatie icoontje"/> <span>Wat is halal snoep?</span></Link>
-                    <Link href=""><Image src={snoepje} alt="Icoontje van een snoepje"/> <span>Halal snoep producten</span></Link>
-                    <Link href=""><Image src={blogs} alt="Icoontje van een blaadje met tekst"/> <span>Blog</span></Link>
-                    <Link href=""><Image src={contact} alt="Icoontje van envelop"/> <span>Contact</span></Link>
+                    <Link href="/halal-snoep-bestellen"><Image src={winkelwagen} alt="Icoontje van een winkelwagen"/> <span>Halal snoep bestellen</span></Link>
+                    <Link href="/wat-is-halal-snoep"><Image src={informatie} alt="Informatie icoontje"/> <span>Wat is halal snoep?</span></Link>
+                    <Link href="/halal-snoep-producten"><Image src={snoepje} alt="Icoontje van een snoepje"/> <span>Halal snoep producten</span></Link>
+                    <Link href="/blog"><Image src={blogs} alt="Icoontje van een blaadje met tekst"/> <span>Blog</span></Link>
+                    <Link href="/contact"><Image src={contact} alt="Icoontje van envelop"/> <span>Contact</span></Link>
                 </div>
             </div>
         </div>
@@ -82,36 +88,36 @@ function Homepagecontent() {
         <div>
             <div>
                 <h2>Blog</h2>
-                <p>Ontdek het laatste nieuws en de meest recente ontwikkelingen met betrekking tot halal snoep door een bezoek te brengen aan onze informatieve blog. Wij delen boeiende en gedetailleerde artikelen die niet alleen inzicht geven in de nieuwste trends in de wereld van halal snoep.</p>
+                <p>Ontdek het laatste nieuws en de meest recente ontwikkelingen met betrekking tot halal snoep door een bezoek te brengen aan onze informatieve <Link href="/blog" className="redcolor">Blog</Link>. Wij delen boeiende en gedetailleerde artikelen die niet alleen inzicht geven in de nieuwste trends in de wereld van halal snoep.</p>
 
                 <div>
-                    <Link href="">
+                    <Link href="/blog/is-snoep-slecht-voor-je">
                         <h3>Is snoep slecht voor je?</h3>
-                        <Image src={snoepje} alt="Snoepje"/>
+                        <Image src={gezond} alt="Een gezonde aardbeien hartje"/>
+                        <p>Datum: <time datetime="2024-02-15">14 Februari 2024</time></p>
+                        <p>Lees meer</p>
+                    </Link>
+                    <Link href="/blog/snoep-uit-de-jaren-90-en-80">
+                        <h3>Snoep uit de jaren 90 en 80</h3>
+                        <Image src={oudesnoep} alt="Snoepje"/>
+                        <p>Datum: <time datetime="2024-02-15">14 Februari 2024</time></p>
+                        <p>Lees meer</p>
+                    </Link>
+                    <Link href="blog/snoep-uit-amerika">
+                        <h3>Snoep uit Amerika</h3>
+                        <Image src={amerikaansesnoep} alt="Amerikaanse snoep merken"/>
                         <p>Datum: <time datetime="2024-02-15">15 Februari 2024</time></p>
                         <p>Lees meer</p>
                     </Link>
-                    <Link href="">
-                        <h3>Is snoep slecht voor je?</h3>
-                        <Image src={snoepje} alt="Snoepje"/>
+                    <Link href="blog/snoep-uit-turkije">
+                        <h3>Snoep uit Turkije</h3>
+                        <Image src={turksevlag} alt="De Turkse vlag"/>
                         <p>Datum: <time datetime="2024-02-15">15 Februari 2024</time></p>
                         <p>Lees meer</p>
                     </Link>
-                    <Link href="">
-                        <h3>Is snoep slecht voor je?</h3>
-                        <Image src={snoepje} alt="Snoepje"/>
-                        <p>Datum: <time datetime="2024-02-15">15 Februari 2024</time></p>
-                        <p>Lees meer</p>
-                    </Link>
-                    <Link href="">
-                        <h3>Is snoep slecht voor je?</h3>
-                        <Image src={snoepje} alt="Snoepje"/>
-                        <p>Datum: <time datetime="2024-02-15">15 Februari 2024</time></p>
-                        <p>Lees meer</p>
-                    </Link>
-                    <Link href="">
-                        <h3>Is snoep slecht voor je?</h3>
-                        <Image src={snoepje} alt="Snoepje"/>
+                    <Link href="blog/wat-doet-snoep-met-je-lichaam">
+                        <h3>Wat doet snoep met je lichaam?</h3>
+                        <Image src={lichaam} alt="Het menselijke lichaam"/>
                         <p>Datum: <time datetime="2024-02-15">15 Februari 2024</time></p>
                         <p>Lees meer</p>
                     </Link>

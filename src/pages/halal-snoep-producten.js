@@ -22,7 +22,7 @@ export default function HalalSnoepProducten() {
         <title>Halal Snoep Producten</title>
         <meta name="description" content="Ontdek het uitgebreide assortiment Halal Snoep Producten op halal-snoep.nl, met een focus op de heerlijke lekkernijen van Halal Delight. Verken zoete, zure, spekjes en marshmallows die voldoen aan de hoogste halal normen."/>
         <meta name="og:description" content="Ontdek het uitgebreide assortiment Halal Snoep Producten op halal-snoep.nl, met een focus op de heerlijke lekkernijen van Halal Delight. Verken zoete, zure, spekjes en marshmallows die voldoen aan de hoogste halal normen."/>
-        <meta property="og:url" content="https://www.halal-snoep.nl/wat-is-halal-snoep"/>
+        <meta property="og:url" content="https://www.halal-snoep.nl/halal-snoep-producten"/>
         <meta property="og:title" content="Ontdek het uitgebreide assortiment Halal Snoep Producten op halal-snoep.nl, met een focus op de heerlijke lekkernijen van Halal Delight. Verken zoete, zure, spekjes en marshmallows die voldoen aan de hoogste halal normen."/>
         <meta name="keywords" content="halal snoep, islamitische voeding, halal slachten, toegestane dieren, halal levensstijl"/>
         <meta name="author" content="Muhammet"/>

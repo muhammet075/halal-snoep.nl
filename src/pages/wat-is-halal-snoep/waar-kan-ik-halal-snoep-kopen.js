@@ -23,7 +23,7 @@ export default function WaarKanIkHalalSnoepKopen() {
         <title>Waar kan ik halal snoep kopen?</title>
         <meta name="description" content="Ontdek waar je hoogwaardige halal snoepjes kunt kopen op halal-snoep.nl"/>
         <meta name="og:description" content="Ontdek waar je hoogwaardige halal snoepjes kunt kopen op halal-snoep.nl"/>
-        <meta property="og:url" content="https://www.halal-snoep.nl/wat-is-halal-snoep"/>
+        <meta property="og:url" content="https://www.halal-snoep.nl/wat-is-halal-snoep/waar-kan-ik-halal-snoep-kopen"/>
         <meta property="og:title" content="Ontdek waar je hoogwaardige halal snoepjes kunt kopen op halal-snoep.nl"/>
         <meta name="keywords" content="halal snoep, islamitische voeding, halal slachten, toegestane dieren, halal levensstijl"/>
         <meta name="author" content="Muhammet"/>

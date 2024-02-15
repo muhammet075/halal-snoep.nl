@@ -18,6 +18,7 @@ function Footer() {
           <li><Link href="/contact">Contact</Link></li>
           <li><Link href="/algemene-voorwaarden">Algemene Voorwaarden</Link></li>
           <li><Link href="/disclaimer">Disclaimer</Link></li>
+          <li><Link target="_blank" href="/sitemap.xml">XML Sitemap</Link></li>
         </ul>
 
         <ul>
@@ -41,7 +42,7 @@ function Footer() {
           <li><h2>Blog</h2></li>
           <li><Link href="/blog">Blog</Link></li>
           <li><Link href="/blog/is-snoep-slecht-voor-je">Is snoep slecht voor je?</Link></li>
-          <li><Link href="/blog/snoep-uit-de-jaren-80-en-90">Snoep uit de jaren 80 en 90</Link></li>
+          <li><Link href="/blog/snoep-uit-de-jaren-90-en-80">Snoep uit de jaren 90 en 80</Link></li>
           <li><Link href="/blog/snoep-uit-amerika">Snoep uit Amerika</Link></li>
           <li><Link href="/blog/snoep-uit-turkije">Snoep uit Turkije</Link></li>
           <li><Link href="/blog/wat-doet-snoep-met-je-lichaam">Wat doet snoep met je lichaam?</Link></li>

@@ -26,7 +26,6 @@ export default function Contact() {
         <meta property="og:title" content="Neem contact op met halal-snoep.nl voor vragen, opmerkingen of bestellingsinformatie. We staan klaar om je te helpen en streven naar de beste klantenservice."/>
         <meta name="keywords" content="contact halal-snoep.nl, klantenservice, vragen, opmerkingen"/>
         <meta name="author" content="Muhammet"/>
-
       </Head>
 
       <div className="pagecontent">

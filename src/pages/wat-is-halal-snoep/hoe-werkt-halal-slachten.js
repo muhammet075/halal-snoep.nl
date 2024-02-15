@@ -22,7 +22,7 @@ export default function HoeWerktHalalSlachten() {
         <title>Hoe werkt halal slachten?</title>
         <meta name="description" content="Ontdek de diepgaande aspecten van halal snoep en leer meer over de islamitische voedingsprincipes."/>
         <meta name="og:description" content="Ontdek de diepgaande aspecten van halal snoep en leer meer over de islamitische voedingsprincipes."/>
-        <meta property="og:url" content="https://www.halal-snoep.nl/wat-is-halal-snoep"/>
+        <meta property="og:url" content="https://www.halal-snoep.nl/wat-is-halal-snoep/hoe-werkt-halal-slachten"/>
         <meta property="og:title" content="Ontdek de diepgaande aspecten van halal snoep en leer meer over de islamitische voedingsprincipes."/>
         <meta name="keywords" content="halal snoep, islamitische voeding, halal slachten, toegestane dieren, halal levensstijl"/>
         <meta name="author" content="Muhammet"/>

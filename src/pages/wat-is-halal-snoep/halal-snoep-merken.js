@@ -23,7 +23,7 @@ export default function HalalSnoepMerken() {
         <title>Halal snoep merken</title>
         <meta name="description" content="Ontdek het toonaangevende Halal snoep merk, Halal Delight. Verken het assortiment van hoogwaardige en smakelijke lekkernijen die voldoen aan strikte halal normen."/>
         <meta name="og:description" content="Ontdek het toonaangevende Halal snoep merk, Halal Delight. Verken het assortiment van hoogwaardige en smakelijke lekkernijen die voldoen aan strikte halal normen."/>
-        <meta property="og:url" content="https://www.halal-snoep.nl/wat-is-halal-snoep"/>
+        <meta property="og:url" content="https://www.halal-snoep.nl/wat-is-halal-snoep/halal-snoep-merken"/>
         <meta property="og:title" content="Ontdek het toonaangevende Halal snoep merk, Halal Delight. Verken het assortiment van hoogwaardige en smakelijke lekkernijen die voldoen aan strikte halal normen."/>
         <meta name="keywords" content="halal snoep, islamitische voeding, halal slachten, toegestane dieren, halal levensstijl"/>
         <meta name="author" content="Muhammet"/>
@@ -31,7 +31,7 @@ export default function HalalSnoepMerken() {
       </Head>
 
       <div className="pagecontent">
-        <div id="pageheader6">
+        <div id="pageheader9">
             <ul class="breadcrumb">
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/wat-is-halal-snoep/">Wat is halal snoep?</Link></li>

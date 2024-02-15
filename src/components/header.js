@@ -55,11 +55,12 @@ function Header() {
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle text-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item text-dark" href="#">Is snoep slecht voor je?</a>
-                            <a class="dropdown-item text-dark" href="#">Snoep uit de jaren 90 en 80</a>
-                            <a class="dropdown-item text-dark" href="#">Snoep uit Amerika</a>
-                            <a class="dropdown-item text-dark" href="#">Snoep uit Turkije</a>
-                            <a class="dropdown-item text-dark" href="#">Wat doet snoep met je lichaam?</a>
+                            <a class="dropdown-item text-dark" href="/blog">Blog</a>
+                            <a class="dropdown-item text-dark" href="/blog/is-snoep-slecht-voor-je">Is snoep slecht voor je?</a>
+                            <a class="dropdown-item text-dark" href="/blog/snoep-uit-de-jaren-90-en-80">Snoep uit de jaren 90 en 80</a>
+                            <a class="dropdown-item text-dark" href="/blog/snoep-uit-amerika">Snoep uit Amerika</a>
+                            <a class="dropdown-item text-dark" href="/blog/snoep-uit-turkije">Snoep uit Turkije</a>
+                            <a class="dropdown-item text-dark" href="/blog/wat-doet-snoep-met-je-lichaam">Wat doet snoep met je lichaam?</a>
                         </div>
                 </li>
 

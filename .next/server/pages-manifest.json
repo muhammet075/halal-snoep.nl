@@ -2,9 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/halal-snoep-producten": "pages/halal-snoep-producten.js",
-  "/halal-snoep-bestellen/halal-delight-webshop": "pages/halal-snoep-bestellen/halal-delight-webshop.js",
-  "/wat-is-halal-snoep/waar-kan-ik-halal-snoep-kopen": "pages/wat-is-halal-snoep/waar-kan-ik-halal-snoep-kopen.js",
-  "/": "pages/index.js",
-  "/contact": "pages/contact.js"
+  "/halal-snoep-producten": "pages/halal-snoep-producten.js"
 }

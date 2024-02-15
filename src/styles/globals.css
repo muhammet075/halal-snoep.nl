@@ -60,6 +60,10 @@ body{
   background-image: url(/contact.png);
 }
 
+#pageheader9{
+  background-image: url(/snoepjes4.jpg);
+}
+
 
 
 h1, h2, h3, h4{
@@ -266,4 +270,95 @@ ul.breadcrumb li a:hover {
 .redcolor{
   color: red;
   text-decoration: underline;
+}
+
+
+
+
+
+
+
+.blogcontentbox{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 25px;
+  margin-bottom: 100px;
+}
+
+.blogcontentbox > a{
+  width: 250px;
+  height: auto;
+  text-align: center;
+  padding-bottom: 25px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.blogcontentbox > a h3{
+  font-size: 17px;
+  margin: 15px 10px;
+  font-weight: 600;
+  color: #313131;
+}
+
+.blogcontentbox > a img{
+  width: 100%;
+  height: auto;
+  border: 2px solid red;
+  border-left: 0;
+  border-right: 0;
+}
+
+.blogcontentbox > a p{
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.blogcontentbox > a p:last-child{
+  border: 1.5px solid #f20000;
+  width: 50%;
+  margin: auto;
+  color: #f20000;
+  font-weight: 500;
+  font-size: 13px;
+  border-radius: 6px;
+  margin-top: 25px;
+}
+
+.blogcontentbox > a:hover{
+  text-decoration: none;
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+
+.blogcontentbox > a:hover p{
+  color: #000;
+}
+
+.blogcontentbox > a:hover p:last-child{
+  background-color: red;
+  color: #ffff;
+  transition: 0.3s ease;
+}
+
+@media only screen and (max-width: 1155px) {
+  .blogcontentbox{
+      margin-top: 25px;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+      padding: 0 15px 40px 15px;
+      margin-bottom: 50px;
+  }
+
+  .blogcontentbox a{
+      display: inline-block;
+  }
+
+  .homepagecontent > div:nth-of-type(4) > div > p:last-child{
+      display: block;
+  }
 }
