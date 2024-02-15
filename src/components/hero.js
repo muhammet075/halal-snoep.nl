@@ -20,9 +20,9 @@ function Hero() {
                     <p>Vind op onze website alle interessante weetjes, feiten en informatie over halal snoepjes.</p>
                     </section>
                     <section>
-                        <Link href="/" target="_blank">Halal Snoep Bestellen</Link>
-                        <Link href="https://halaldelight.nl/" target="_blank">Halal Delight Webshop <Image className="externeicoon" src={ExternalLink} alt="Externe link icoon"/></Link>
-                        <Link href="/" target="_blank">Blog</Link>
+                        <Link href="/halal-snoep-bestellen">Halal snoep bestellen</Link>
+                        <Link href="https://halaldelight.nl/" target="_blank">Halal Delight webshop <Image className="externeicoon" src={ExternalLink} alt="Externe link icoon"/></Link>
+                        <Link href="/blog">Blog</Link>
                     </section>
                 </div>
 

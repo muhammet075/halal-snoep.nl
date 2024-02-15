@@ -11,7 +11,10 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <meta property="og:image" content="/logo.png" />
         <meta name="keywords" content="Halal Delight, Halal snoepjes, Halal candies, Halal sweets"/>
-        <link rel="icon" type="image/x-icon" href="/favico.png"/>
+
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16"/>
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32"/>
+
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 

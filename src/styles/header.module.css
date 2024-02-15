@@ -14,7 +14,7 @@
 }
 
 .header > div nav a img{
-    width: 300px !important;
+    width: 280px !important;
 }
 
 .header > div nav .dropdown-toggle{
@@ -29,12 +29,12 @@
 
 @media only screen and (max-width: 410px) {
     .header > div nav a img{
-        width: 250px !important;
+        width: 220px !important;
     }
 }
 
 @media only screen and (max-width: 360px) {
     .header > div nav a img{
-        width: 215px !important;
+        width: 200px !important;
     }
 }

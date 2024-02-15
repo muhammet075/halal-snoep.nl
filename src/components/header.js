@@ -15,7 +15,7 @@ function Header() {
 
             <nav class="navbar navbar-expand-lg navbar-light">
 
-            <a class="navbar-brand" href="#"><Image src={logo} alt="Logo van halal-snoep.nl"/></a>
+            <a class="navbar-brand" href="/"><Image src={logo} alt="Logo van halal-snoep.nl"/></a>
 
             <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,37 +31,26 @@ function Header() {
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle text-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Halal snoep bestellen</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item text-dark" href="#">Halal snoep bestellen</a>
-                            <a class="dropdown-item text-dark" href="#">Halal Delight Webshop</a>
-                            <a class="dropdown-item text-dark" href="#">Halal Snoepjes in Nederland</a>
-                            <a class="dropdown-item text-dark" href="#">Halal Snoepjes in België</a>
+                            <a class="dropdown-item text-dark" href="/halal-snoep-bestellen">Halal snoep bestellen</a>
+                            <a class="dropdown-item text-dark" href="/halal-snoep-bestellen/halal-delight-webshop">Halal Delight Webshop</a>
+                            <a class="dropdown-item text-dark" href="/halal-snoep-bestellen/halal-snoepjes-in-nederland">Halal Snoepjes in Nederland</a>
+                            <a class="dropdown-item text-dark" href="/halal-snoep-bestellen/halal-snoepjes-in-belgie">Halal Snoepjes in België</a>
                         </div>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle text-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Wat is halal snoep?</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item text-dark" href="#">Wat is halal snoep?</a>
-                            <a class="dropdown-item text-dark" href="#">Wat is halal?</a>
-                            <a class="dropdown-item text-dark" href="#">Waar kan ik halal snoep kopen?</a>
-                            <a class="dropdown-item text-dark" href="#">Halal snoep merken</a>
+                            <a class="dropdown-item text-dark" href="/wat-is-halal-snoep">Wat is halal snoep?</a>
+                            <a class="dropdown-item text-dark" href="/wat-is-halal-snoep/hoe-werkt-halal-slachten">Hoe werkt halal slachten?</a>
+                            <a class="dropdown-item text-dark" href="/wat-is-halal-snoep/waar-kan-ik-halal-snoep-kopen/">Waar kan ik halal snoep kopen?</a>
+                            <a class="dropdown-item text-dark" href="/wat-is-halal-snoep/halal-snoep-merken/">Halal snoep merken</a>
                         </div>
                 </li>
 
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle text-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Halal snoep producten</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item text-dark" href="#">Halal snoep producten</a>
-                            <a class="dropdown-item text-dark" href="#">Gummies</a>
-                            <a class="dropdown-item text-dark" href="#">Zure halal snoepjes</a>
-                            <a class="dropdown-item text-dark" href="#">Zoete halal snoepjes</a>
-                            <a class="dropdown-item text-dark" href="#">Halal spekjes</a>
-                            <a class="dropdown-item text-dark" href="#">Halal marshmallows</a>
-                            <a class="dropdown-item text-dark" href="#">Halal chocolade</a>
-                            <a class="dropdown-item text-dark" href="#">Halal koekjes</a>
-                        </div>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/halal-snoep-producten">Halal Snoep Producten</a>
                 </li>
-
 
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle text-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
